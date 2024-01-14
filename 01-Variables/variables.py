@@ -1,3 +1,4 @@
+# VARIABLES 
 """
 
 Una variable es un contenedor de informacion, es decir, dentro de la misma se guardara un dato. 
