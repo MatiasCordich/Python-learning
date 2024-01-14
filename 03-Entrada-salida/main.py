@@ -10,7 +10,7 @@ nombre = input("Cual es tu nombre?: ")
 # SALIDA DE DATOS
 """
 
-La salida de datos es simplemente aplicar la funcion print() que hemos estado utilizando
+La salida de datos es simplemente aplicar la  funcion print() que hemos estado utilizando
 
 """
 
