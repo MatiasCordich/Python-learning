@@ -15,3 +15,5 @@ La salida de datos es simplemente aplicar la  funcion print() que hemos estado u
 """
 
 print(f"Su nombre es: {nombre}")
+
+# ENTRADA DE DATOS TIPO ENTERO

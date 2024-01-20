@@ -35,3 +35,21 @@ if color_adivinar == "verde":
     print("Felicitaciones, adiviniste el color!!!")
 else:
     print("No has adivinado mi color favorito :( ")
+
+"""
+
+IFs Anidados
+ 
+SI se_cumple_esta_condicion:
+    Ejecuto el grupo de instruccions
+SI NO:
+    Ejecuto este grupo de instrucciones
+
+En Python utilizamos 
+
+if condicion:
+    instrucciones
+else:
+    otras instrucciones
+
+"""
