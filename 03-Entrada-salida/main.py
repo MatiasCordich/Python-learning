@@ -29,7 +29,7 @@ print(f"Su nombre es: {nombre} y su edad es {edad}")
 
 """
 
-Hasta aca todo bien ya que al ingresar un numero por consola lo toma como string, el problema es cuando tenemos que ingresar un numero por consola y queremos hacer una operacion con dicho numero, al ingresarlo me lo toma como String y no podemos hacer operaciones aritmeticas con strings.
+Recordemos que al ingresar cualquier dato por consola, este  lo toma como string, el problema es cuando tenemos que ingresar un numero por consola y queremos hacer una operacion con dicho numero, al ingresarlo me lo toma como String y no podemos hacer operaciones aritmeticas con strings.
 Para eso tenemos que convertir el dato que ingresemos con el metodo int() de la siguiente manera
 
 """
