@@ -9,7 +9,7 @@ Estas condiciones son evaluadas com VERDADERAS o FALSAS.
 En Python existen expresiones para realizar una estrcutura condicional que son 
 IF: Si
 ELSE: sino
-ELIF (abreviatura de else if): o si
+ELIF (abreviatura de else if): Sino si
 
 """
 
@@ -20,17 +20,17 @@ Condicional IF/ELSE
 
 En términos sencillos, estas estructuras condicionales permiten que un programa ejecute cierto bloque de código si se cumple una condición específica y, opcionalmente, ejecute un bloque diferente si la condición no se cumple.
  
-SI se_cumple_esta_condicion:
-    Ejecuto el grupo de instruccions
-SI NO:
-    Ejecuto este grupo de instrucciones
+SI condicion_1:
+    Ejecuto el grupo de instruccions si condicion_1 es VERDADERA
+SINO:
+    Ejecuto el grupo de instruccions si condicion_1 es FALSA
 
 En Python utilizamos 
 
 if condicion_1:
-    Bloque de código si condicion_1 es verdadera
+    Bloque de código si condicion_1 es VERDADERA
 else:
-    Bloque de código si condicion_1 es falsa
+    Bloque de código si condicion_1 es FALSA
 
 """
 
@@ -61,11 +61,13 @@ IFs Anidados
 Son estructucturas condiciones dentro de otras estructuras condicionales 
 
 SI condicion_1:
+
     Ejecuto estas instrucciones si condicion_1 es verdadera 
     SI condicion_2:
-         Ejecuto estas instrucciones si condicion_1 y condicion_2 son verdaeras verdaderas
-    SI NO:
+        Ejecuto estas instrucciones si condicion_1 y condicion_2 son VERDADERAS
+    SINO:
         Ejecuto estas instruciones si la condicion_2 NO es verdadera
+
 SI NO:
     Ejecuto este grupo de instrucciones si la condicion_1 es FALSA
 
@@ -79,6 +81,7 @@ if condicion_externa:
         # Bloque de código si ambas condiciones son verdaderas
     else:
         # Bloque si la condicion interna no es verdadera
+        
 else:
     # Bloque de código si la condicion_externa es falsa
 
