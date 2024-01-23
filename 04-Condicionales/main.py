@@ -10,12 +10,10 @@ En Python existen expresiones para realizar una estrcutura condicional que son
 IF: Si
 ELSE: sino
 ELIF (abreviatura de else if): Sino si
-
 """
 
 
 """
-
 Condicional IF/ELSE
 
 En términos sencillos, estas estructuras condicionales permiten que un programa ejecute cierto bloque de código si se cumple una condición específica y, opcionalmente, ejecute un bloque diferente si la condición no se cumple.
@@ -31,7 +29,6 @@ if condicion_1:
     Bloque de código si condicion_1 es VERDADERA
 else:
     Bloque de código si condicion_1 es FALSA
-
 """
 
 # EJEMPLO 1
@@ -55,7 +52,6 @@ else:
     print("No has adivinado mi color favorito :( ")
 
 """
-
 IFs Anidados
  
 Son estructucturas condiciones dentro de otras estructuras condicionales 
@@ -84,7 +80,6 @@ if condicion_externa:
         
 else:
     # Bloque de código si la condicion_externa es falsa
-
 """
 
 nombre = "Pepe"
@@ -106,7 +101,6 @@ else :
      print(f"{nombre} NO  es mayor de edad")
 
 """
-
 Elif
 
 Cuando tenemos que evaluar multiples condiciones, existe una estructura que nos sirve para realizar dicha evaluacion multiple, el ELIF que se usa de la sigueinte manera 
@@ -128,7 +122,6 @@ elif condicion_3:
     Bloque de código si condicion_1 y condicion_2 son falsas, pero condicion_3 es verdadera
 else:
     Bloque de código si ninguna de las condiciones anteriores es verdadera
-
 """
 
 edad_establecida = 25
@@ -139,3 +132,54 @@ elif 18 <= edad < 65:
     print("Eres adulto.")
 else:
     print("Eres un adulto mayor.")
+
+# CONDICIONALES CON MULTIPLES CONDICIONES
+
+"""
+Cuando queremos evaluar dos o mas condiciones y manipular el resultado Booleando, utilizamos los operadores logicos AND, OR y NOT
+
+Son utilizados de la siguiente manera
+"""
+
+# AND
+
+"""
+Al utilizar el operador AND, estoy estableciendo que las dos o mas condiciones se cumplan si o si para dar TRUE, si uno no cumple el valor booleano sera FALSE.
+"""
+
+edad_minima = 18
+edad_maxima = 65
+edad_oficial = int(input("Tiene edad para trabajar? Ingrese su edad: "))
+
+if edad_oficial >= edad_minima and edad_oficial <= edad_maxima: 
+    print("Estas en edad para trabajar")
+else:
+    print("No estas en dad para trabajar")
+
+#OR
+    
+"""
+Al utilizar el operador OR, estoy estableciendo que de todas las condiciones a evaluar, con que una sea verdadera el valor final sera TRUE. La unica forma de que sea FALSE es si todas las condiciones a evauluar dan falso. 
+"""
+
+pais = "Argentina"
+
+if pais == "Argentina" or pais == "Francia" or pais == "Mexico":
+    print(f"La persona es de {pais}")
+else:
+    print("La persona no es de ninguno de los paises mencionados")
+
+#NOT
+    
+"""
+Este operador se utiliza para cambiar el valor final de la condicion, si el valor final, despues de evaluar todas las condiciones, es TRUE con el NOT sera FALSE, y si es FALSE con el NOT el valor final sera TRUE. 
+"""
+
+pais = "Argentina"
+
+if not(pais == "Argentina" or pais == "Francia" or pais == "Mexico"):
+   print("La persona no es de ninguno de los paises mencionados")
+else:
+    print(f"La persona es de {pais}")
+    
+    

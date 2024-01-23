@@ -25,11 +25,9 @@ print(edad)
 
 # OPERADORES DE DECREMENTO E INCREMENTO
 """
-
 En otros lenguajes de programacion (como C, C++ o Java), un operador de incremento y decremento es un operador especial para aumentar y disminuir el valor de una variable numerica en 1. Para realizarlo se utilizan estos operadores especiales que tienen la siguiente forma: ++ (para incremento) y -- (para decremento).
 
 En Python, no existen estos operadores en especifico, sin embergo, para realizar dichos incrementos o decrementos simplemente nos podemos valer de los operadores de asignacion.
-
 """
 
 x = 5

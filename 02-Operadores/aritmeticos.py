@@ -1,6 +1,5 @@
 # OPERADORES ARITMETICOS
 """
-
 Los operadores aritméticos en Python se utilizan para realizar operaciones matemáticas entre variables o valores.
 
 Los operadores aritmeticos en Python son los siguientes:
@@ -14,7 +13,6 @@ Los operadores aritmeticos en Python son los siguientes:
 - Division (/): operador para realizar la division de valores
 
 - Modulo (%): Devuelve el residuo de la división del valor de la izquierda por el valor de la derecha
-
 """
 
 num_1 = 24 # Operador de asignacion =
