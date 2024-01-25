@@ -57,3 +57,6 @@ Se toma primero como variable la variable i
 """
 
 # USANDO EL FOR PARA UNA LISTA
+"""
+Tambien podemos recorrer listas con el for
+"""
