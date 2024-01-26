@@ -60,3 +60,29 @@ Se toma primero como variable la variable i
 """
 Tambien podemos recorrer listas con el for
 """
+
+frutas = ["manzana", "banana", "uva"]
+
+for fruta in frutas:
+    print(fruta)
+
+#WHILE
+"""
+Este bucle de repeticion se utiliza cuando queremos repetir un bloque de codigo mientras se cumple una condicion. Veamos en el siguiente ejemplo:
+"""    
+
+contador = 0
+
+while contador < 5:
+    print(contador)
+    contador += 1
+
+"""
+Tenemos una variable entera llamada CONTADOR que tiene un valor de cero 0
+
+Inicia el while
+El while tiene una condicion que es la siguiente contador MENOR a 5.
+Eso quiere decir que el bloque de codigo a ejecutarse, imprimir por consola el valor de contador, va a ejecutarse de forma repetido MIENTRAS el valor de la variable contador SEA MENOR a 5. 
+Una vez que se imprimio, se incrementa en 1 el valor de CONTADOR
+Se vuelve al principio del bucle hasta que no se cumple mas la condicion del bucle
+"""
