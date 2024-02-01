@@ -9,7 +9,7 @@ def nombreDeMiFuncion(parametros):
 
 nombreDeMiFuncion(mi_parametro)
 
-No es necesario que las funciones tenga parametros, mas adelante se explica que son los parametros
+No es necesario que las funciones tenga parametros, mas adelante se explica que son los parametros en una funcion
 """
 
 # DEFINIR FUNCION
