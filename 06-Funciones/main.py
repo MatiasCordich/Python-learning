@@ -56,3 +56,70 @@ nombre_ingresado = input("Ingrese su nombre: ")
 edad_ingresada = int(input("Ingrese su edad: "))
 
 presentarPersona(nombre_ingresado, edad_ingresada)
+
+# EJEMPLO 3. USO DEL RETURN EN UNA FUNCION
+"""
+El uso del return en una funcion especifica que, una vez hecho toda la operacion, el resultado obtenido sea "devuelto" o "retornado" para que se pueda usar en otro lugar de mi programa. 
+Vamos con un ejemplo
+"""
+
+def suma(a, b):
+    resultado = a + b
+    return resultado
+
+"""
+Como vemos dicha funcion hace la suma de dos numeros, cuyos paramentros son "a" y "b" y al utilizarse, se hace la operacion aritmetica y da como resultado un valor que es retornado en una variable llamada "resultado"
+"""
+
+"""
+ES IMPORTANTE ENTENDER QUE EL RESULTADO FINAL NO SE VERA EN LA PANTALLA A NO SER QUE SE HAGA UN PRINT DEL RESULTADO QUE RETORNE LA FUNCION. 
+"""
+print(suma(5,6))
+
+"""
+O puedo guardar el valor que me retorne la funcion en una variable y despues imprimir dicho valor
+"""
+
+resultado_suma = suma(6,9)
+
+print(f"El resultado es: {resultado_suma}")
+
+# FUNCIONES ANIDADAS 
+"""
+Podemos anidar funciones, es decir, podemos hacer una funcion "madre" que englobe otras funciones "hijas" con el proposito de solo llamar a la funcion madre que a su vez llamara a las funciones hijas para ejecutar toda la instruccion. 
+Veamos con un ejemplo
+"""
+
+def getNombre(nombre):
+    texto = f"Mi nombre es: {nombre}\n"
+    return texto
+
+def getApellidos(apellidos):
+    texto = f"Mis apellidos son : {apellidos}\n"
+    return texto
+
+def devuelveTodo(nombre, apellidos):
+    texto = getNombre(nombre) + "\n" + getApellidos(apellidos)
+    return texto
+
+print(getNombre("Pepe"), getApellidos("Esculapio"))
+print(devuelveTodo("Pepe", "Esculapio"))
+
+# FUNCIONES LAMBDA
+"""
+Es una forma concisa de definir funciones ANONIMAS, es decir, funciones que son utiles cuando se necesita una funcion rapida para ejecutar un bloque de codigo muy sencillo sin tener que utilizar la palabra "def" 
+Un ejemplo seria
+"""
+
+multiplicar_por_dos = lambda x : x * 2
+
+"""
+La funcion se define como una variable cuyos componentes son
+- lambda: la palabra reservada para definir que esa es una funcion lambda
+- el parametro que recibe, en este caso definido como "x"
+- lo que viene despues de los dos puntos ":" es el pequeño bloque de instruccion de lo que se hace con dicho valor pasado por parametro "x * 2"
+"""
+
+resultado_doble = multiplicar_por_dos(8)
+
+print(resultado_doble)
