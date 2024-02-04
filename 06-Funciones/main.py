@@ -108,7 +108,7 @@ print(devuelveTodo("Pepe", "Esculapio"))
 # FUNCIONES LAMBDA
 """
 Es una forma concisa de definir funciones ANONIMAS, es decir, funciones que son utiles cuando se necesita una funcion rapida para ejecutar un bloque de codigo muy sencillo sin tener que utilizar la palabra "def" 
-Un ejemplo seria
+Un ejemplo seria el siguiente
 """
 
 multiplicar_por_dos = lambda x : x * 2
