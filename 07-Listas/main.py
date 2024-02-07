@@ -6,3 +6,5 @@ Para poder acceder a esos valores podemos utilizar un indice numero
 """
 
 peliculas = ["Batman", "Spiderman", "Avengers"]
+
+print(peliculas)
