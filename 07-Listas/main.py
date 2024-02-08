@@ -7,4 +7,11 @@ Para poder acceder a esos valores podemos utilizar un indice numero
 
 peliculas = ["Batman", "Spiderman", "Avengers"]
 
+"""
+Otra forma de crear listas son utilizando el metodo list()
+"""
+
+colores = list(('verde', 'rojo', 'amarillo'))
+
 print(peliculas)
+print(colores)
