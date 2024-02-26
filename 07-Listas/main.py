@@ -13,5 +13,9 @@ Otra forma de crear listas son utilizando el metodo list()
 
 colores = list(('verde', 'rojo', 'amarillo'))
 
+"""
+El resultado sera el siguiente de las listas
+"""
+
 print(peliculas)
 print(colores)
